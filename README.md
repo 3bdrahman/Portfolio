@@ -1,4 +1,4 @@
-#Portfolio
+# Portfolio
 #### last version of my personal website was static UI with a little of JavaScript. I always thought it could be easier and more professional if I could have reusability of components for future plans. That's why I decided to upgrade and build the same website with React.
 
 ## Front-End: 
