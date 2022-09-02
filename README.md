@@ -8,4 +8,4 @@
 
 ## Live: http://ayosef.com
 
-![](showcase.gif)
+![](showcase2.gif)
