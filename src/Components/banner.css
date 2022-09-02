@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1050px){
+    .hero{
+        height: 90vh;
+    }
+    .nav-container{
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        
+    }
+    header {
+        background: #6700EE;
+        padding: 2em 2em 2em 4em;
+    }
+    section{
+        padding: 4em;
+    }
+    .social-header{
+        padding: 2em 4em 2em 0;
+        display: block;
+    }
+    
+    .social-header ul{
+        display: flex;
+        justify-content: space-between;
+        width: 15em;
+        float: right;
+        padding-left: 110px;
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        padding: 0;
+        
+    }
+    .content{
+        background: #6E00FF;
+        padding: 6em 8em 6em 4em;
+    }
+    .content h1{
+        font-size: 3em;
+        line-height: 1.2em;
+    }
+    .hero-design{
+        display: unset;
+        margin-left: -50%;
+        margin-top: 15%;
+        width: 100%;
+    }
+    
+    .portfolio-container img{
+        float: right;
+        max-width: 500px;
+        padding: 1em 1em 1em 1em;
+        border-radius: 8%;
+    }
+}
+
+.hero{
+    background-color: #6E00FF;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 4em;
+
+}
+
+.meet{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    color: #FF64CB;
+    padding-left: 55PX;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+    
+}
+.content{
+    background: #6E00FF;
+    padding: 6em 8em 6em 4em;
+}
+.content h1{
+    font-size: 3em;
+    line-height: 1.2em;
+}
+.hero-design{
+    display: unset;
+    margin-left: -50%;
+    margin-top: 15%;
+    width: 100%;
+}
+.scroll{
+    width: 30px;
+    margin-top: 1em;
+    margin-right: .5em;
+}
+@media only screen and (min-width: 1550px){
+    header{
+        padding: 2em 2em 2em 2em;
+    }
+    .social-header{
+        padding: 2em 2em 2em 0;
+    }
+    section{
+        padding: 4em 20em 4em 20em;
+    }
+    .hero .content{
+        padding: 9em 20em 6em 20em;
+    }
+   
+  
+}
+@media only screen and (max-width:550px){
+    .hero-design{
+        display: none;
+    }
+    .hero{
+        text-align: center;
+        grid-template-columns: 100%;
+        background-color: #6700EE;
+        padding: 10px 20px 10px 20px;
+
+    }
+   
+    .hero h1{
+        font-size: xx-large;
+    }
+}

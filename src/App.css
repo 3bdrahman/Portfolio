@@ -1,38 +1,175 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;900&display=swap');
+body{
+    height: 100vh;
+    margin: 0;
+    font-family:'Poppins','arial';
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0 1em;
+
+}
+img{
+    width: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.logo{
+    color: #00F7FF;
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+html{
+    scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+span{
+    text-align: center;
+    margin-top: 1em;
+    margin-right: .5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section{
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6E00FF;
+    letter-spacing: .2em;
+    font-size: .85em;
+}
+
+
+
+.app__up{
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    right: 5px;
+    bottom: 5px;
+}
+
+
+.recentExp{
+    background: #F7F7F7;
+    background-image: url("https://transparenttextures.com/patterns/black-thread-light.png");
+}
+@media only screen and (min-width: 800px){
+    .featured, .recentExp{
+        text-align: left;
+    }
+    
+    .left, .portfolio-left{
+        display: grid;
+        place-content: center;
+        width: 50%;
+    }
+    .right{
+        text-align: right;
+        margin-left: 0em;
+        margin-top: -150px;
+        
+    }
+    .transition2{
+        height: 280px;
+        width: 330px;
+    }
+    
+    .recentExp{
+        padding-top: 6em;
+        
+    }
+    .portfolio-container img{
+        
+    
+        width: 50%;
+        height: 60%;
+        margin-top: -230px;
+        margin-left: 25em;
+        
+    }
+    .portfolio-left{
+        width: 40%;
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width: 1050px){
+    .hero{
+        height: 90vh;
+    }
+    .nav-container{
+        display: grid;
+        grid-template-columns: 66% auto;
+        background: unset;
+        
+    }
+    header {
+        background: #6700EE;
+        padding: 2em 2em 2em 4em;
+    }
+    section{
+        padding: 4em;
+    }
+    .social-header{
+        padding: 2em 4em 2em 0;
+        display: block;
+    }
+    
+    .social-header ul{
+        display: flex;
+        justify-content: space-between;
+        width: 15em;
+        float: right;
+        padding-left: 110px;
+    }
+
+    
+    .portfolio-container img{
+        float: right;
+        max-width: 500px;
+        padding: 1em 1em 1em 1em;
+        border-radius: 8%;
+    }
+}
+@media only screen and (min-width: 1250px){
+    header{
+        padding: 2em 2em 2em 10em;
+    }
+    .social-header{
+        padding: 2em 10em 2em 0;
+    }
+    section{
+        padding: 6em 10em 4em 10em;
+    }
+    .hero .content{
+        padding: 6em 8em 6em 10em;
+    }
+   
+    
+}
+
+.circle{
+   animation: circleAnimation 1s infinite alternate-reverse;
+   
+}
+@keyframes circleAnimation{
+    to{
+        transform: translate(0px, 50px);
+        z-index: 5;
+    }
+   
 }

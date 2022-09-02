@@ -1,0 +1,58 @@
+footer{
+    background: #6E00FF;
+    padding: 2em 2em 2em 2em;
+    margin:  auto;
+    text-align: center;
+    position: relative;
+}
+h5{
+    margin: 0;
+}
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer__container ul{
+    text-align: left;
+}
+.footer__border{
+    background-color: #fff;
+    border: 1px solid #fff;
+    
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer__social{
+    margin-top: 15px;
+}
+.copyright{
+    color: #fff;
+    margin:  0px;
+    
+}
+.footer__icon{
+    margin-left: 5px;
+}
+footer button{
+    position: absolute;
+    top: -20%;
+    
+    margin: 5px;
+    z-index: 50;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #FF64CB;
+    color: #ffffff;
+    
+    font-size: 36px;
+    font-weight: 800;
+    border-radius: 100%;
+}
+
+footer button:hover{
+    cursor: pointer;
+    background-color: #DB4BD8;
+}

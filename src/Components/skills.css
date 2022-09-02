@@ -1,0 +1,44 @@
+.skills{
+    background: #FF64CB;
+       
+}
+.skills-container ul li {
+background: white;
+padding: 2em;
+border-radius: 1em;
+margin-bottom: 1em;
+}
+
+.icon-container{
+    height: 100px;
+    display: grid;
+    place-content:center;
+    margin: 0 auto;
+   width: 120px;
+   padding-left: 30px;
+}
+
+@media only screen and (min-width: 800px){
+    .skills{
+        margin-top: -5em;
+        margin-bottom: 0em;
+        padding-top: 7em;
+    }
+    .skills-container ul{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 1em;
+        margin-bottom: -7em;
+        
+    }
+    .skill{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1550px){
+    .skill{
+        width: 300px;
+        text-align: center;
+    }
+}
