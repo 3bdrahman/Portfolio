@@ -1,5 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
+
+
 import './banner.css';
 
 function Banner() {
