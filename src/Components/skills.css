@@ -1,44 +1,84 @@
+
 .skills{
-    background: #FF64CB;
-       
+  background: #0D1B2A;
+  position: relative;
+  height: auto;
+
 }
-.skills-container ul li {
-background: white;
-padding: 2em;
-border-radius: 1em;
-margin-bottom: 1em;
+.skills-list{
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+	 background: linear-gradient(100deg, #402, #006);
+	 padding: 2em;
+	 display: flex;
+	
+	 background-color: #fff;
+
+}
+.skill-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ .group {
+	 width: 100%;
+	 max-width: 20em;
+	 display: flex;
+	 flex-direction: column;
+   align-items: flex-start;
+	 z-index: 2;
 }
 
-.icon-container{
-    height: 100px;
-    display: grid;
-    place-content:center;
-    margin: 0 auto;
-   width: 120px;
-   padding-left: 30px;
+ .group-label{
+	 padding: 0 0.5em;
+	 margin-bottom: 0.5em;
+	 text-transform: uppercase;
+	 font-size: 1em;
+	 letter-spacing: 0.1em;
+	 color: #ccd;
+	 color: rgba(255, 220, 255, 0.6);
+	 cursor: pointer;
+	 align-self: center;
 }
-
-@media only screen and (min-width: 800px){
-    .skills{
-        margin-top: -5em;
-        margin-bottom: 0em;
-        padding-top: 7em;
-    }
-    .skills-container ul{
-        display: grid;
-        grid-template-columns: repeat(3,auto);
-        grid-gap: 1em;
-        margin-bottom: -7em;
-        
-    }
-    .skill{
-        width: 70%;
-    }
+.skill-description{
+  font-size: 18px;
 }
-
-@media only screen and (min-width: 1550px){
-    .skill{
-        width: 300px;
-        text-align: center;
-    }
+ p{
+  line-height: 20px;
+  padding-top: 5px;
+}
+h4{
+  margin: 0;
+  margin-top: 5px;
+}
+ .skill-list {
+	 color: #fff;
+	 font-size: 1.25rem;
+	 line-height: 1;
+	 border-style: none;
+	 outline: none;
+	 height:450px;
+	 width:300px;
+	 padding: 0.8em 1em;
+	 border: 0.25em solid transparent;
+	 background-image: linear-gradient(#000, #000), linear-gradient(120deg, #f09 0%, #0ff 50%, #9f0 100%);
+	 background-origin: border-box;
+	 background-clip: padding-box, border-box;
+	 border-radius: 1.8em;
+	 background-size: 200% 100%;
+	 transition: background-position 0.8s ease-out;
+}
+ .skill-list:hover {
+	 background-position: 100% 0;
+}
+ .skill-list:focus {
+	 outline: 2px dashed #ad2b89;
+	 outline-offset: 0.5em;
+}
+@media (max-width:1150px) {
+	.skill-list{
+		flex-direction: column;
+	}
 }
