@@ -1,16 +1,8 @@
-import React, { useEffect } from 'react';
-import Group3 from '../imgs/Group_3.png';
-import Goal from '../imgs/goal.png';
-import UI from '../imgs/ui-icon.svg';
-import './skills.css';
-import gsap, { Tween, Flip, Power4, Power3, Back } from 'gsap';
-import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-function Skills() {
-	// gsap.registerPlugin(ScrollTrigger);
-	// useEffect(()=>{
-	//     const t1 = gsap.timeline();
+import React from 'react';
 
-	// },[])
+import './skills.css';
+
+function Skills() {
 	return (
 		<section className='skills'>
 			<ul className='skills-list'>
