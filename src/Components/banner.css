@@ -25,7 +25,9 @@
         border-radius: 8%;
     }
 }
-
+.typed-cursor{
+    display: none;
+}
 
 .typed{
   font-size: 60px;
