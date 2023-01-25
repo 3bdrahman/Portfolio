@@ -5,13 +5,11 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import ForwardToInbox from '@mui/icons-material/ForwardToInbox';
 import './header.css';
-import resume from '../My_Resume-2.pdf';
-import Banner from './Banner';
+import resume from '../Abdelrahman Youssef.pdf';
 function Header() {
 	const [transparent, setTransparent] = useState(false);
 	useEffect(() => {
 		const Banner = document.getElementById('hero');
-		console.log(Banner);
 		const observer = new IntersectionObserver((entries) => {
 			entries.forEach(
 				(entry) => {

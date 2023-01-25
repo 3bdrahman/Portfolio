@@ -4,7 +4,7 @@ import GitHub from '@mui/icons-material/GitHub';
 import LinkedIn from '@mui/icons-material/LinkedIn';
 import ForwardToInbox from '@mui/icons-material/ForwardToInbox';
 
-import resume from '../My_Resume-2.pdf';
+import resume from '../Abdelrahman Youssef.pdf';
 function Footer() {
 	return (
 		<footer id='skills'>
