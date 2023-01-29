@@ -19,11 +19,11 @@ function ThreeDim() {
 			<div className='description' id='desc'>
 				<h2 className='explored neonText'>SPOTLIGHT</h2>
 				<p className='desc'>
-					I've been exploring the use of Spline in building 3D user interfaces
-					and environments, which allows for the creation of smooth, curving
-					lines and surfaces. By using Spline, I am able to create more organic
-					and natural-looking shapes, rather than the rigid, straight lines
-					often seen in traditional 3D interfaces.
+					I've been exploring the use of Spline in building interactive 3D user
+					interfaces and environments, which allows for the creation of smooth,
+					curving lines and surfaces. By using Spline, I am able to create more
+					organic and natural-looking shapes, rather than the rigid, straight
+					lines often seen in traditional 3D interfaces.
 				</p>
 			</div>
 

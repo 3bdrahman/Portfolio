@@ -8,9 +8,9 @@ const TypedText = ({ strings }) => {
 		if (!typedRef.current) {
 			typedRef.current = new Typed('.typed', {
 				strings: strings,
-				typeSpeed: 50,
-				backDelay: 10,
-				backSpeed: 30,
+				typeSpeed: 20,
+				backDelay: 2000,
+				backSpeed: 20,
 				loop: true,
 				showCursor: false,
 			});

@@ -9,11 +9,9 @@ function Banner() {
 			<div className='content'>
 				<TypedText
 					strings={[
-						"Hi, Welcome to my website. I'm Abdelrahman Youssef.",
-						'I study Computer Science and Business at the University of Rochester.',
-						"I'm passionate about web development and design.",
-						'After graduation, I look forward to applying my skills to real-world projects.',
-						'Enjoy your stay!',
+						"Welcome to my digital portfolio, I'm Abdelrahman Youssef.",
+						'Computer Science student and Web Developer.',
+						'Bringing ideas to life with code.',
 					]}
 				/>
 			</div>

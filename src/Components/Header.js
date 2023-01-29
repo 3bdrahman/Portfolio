@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import 'intersection-observer';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import ForwardToInbox from '@mui/icons-material/ForwardToInbox';
 import './header.css';
 import resume from '../Abdelrahman Youssef.pdf';
@@ -54,7 +53,7 @@ function Header() {
 					<ul id='nav-list'>
 						<li>
 							<a href='#protofolio' onClick={handleClick}>
-								Protofolio
+								Portfolio
 							</a>
 						</li>
 
