@@ -29,10 +29,10 @@ export const projectData = [
 		image: '../imgs/Scrapper__proj.png',
 	},
 	{
-		title: 'Chat-gpt clone (current)',
+		title: 'Whisper',
 		description:
-			'React application that allows user to make requests to OpenAI with a specific model. ',
-		link: 'https://github.com/3bdrahman/chatGPT-Clone',
+			'Full-stack chat application that uses the chatEngine API with chatGPT and Openai integration.',
+		link: 'https://github.com/3bdrahman/whisper',
 		image: '../imgs/chatGPT.png',
 	},
 	{
