@@ -1,18 +1,12 @@
 export const projectData = [
+	
 	{
-		title: 'Airbnb UI Clone',
-		description:
-			'A UI clone of the Airbnb website that makes use of mapbox API and dateRangePicker.',
-		techs: 'React, NextJS, Tailwind Css, Mapbox API',
-		link: 'https://airbnb-clone-3bdrahman.vercel.app/',
-		image: '../imgs/Airbnb.png',
-	},
-	{
-		title: 'Amazon Clone',
+		title: 'Amazon UI Clone',
 		description:
 			'An Amazon clone that uses React hooks, Firebase Authentication, Firestore, Stripe API.',
 		link: 'https://clozon-fc92d.web.app/',
 		image: '../imgs/Amazon.png',
+		github: "https://github.com/3bdrahman/Clozon"
 	},
 	{
 		title: '2-D Self-driving car',
@@ -20,27 +14,23 @@ export const projectData = [
 			'self-driving 2-d car with a multilayer neural network and visualizer. Collision detection, Parallelization, and mutation were the main milestones.',
 		link: 'https://github.com/3bdrahman/Self-driving-car',
 		image: '../imgs/car.png',
+		github: 'https://github.com/3bdrahman/Self-driving-car'
 	},
-	{
-		title: 'Mini PDF-viewer',
-		description:
-			'React component that can process a list of PDFs and allow user to select and view PDF inside-app.',
-		link: 'https://codesandbox.io/s/react-pdf-viewer-goyyz',
-		image: '../imgs/Scrapper__proj.png',
-	},
+	
 	{
 		title: 'Whisper',
 		description:
 			'Full-stack chat application that uses the chatEngine API with chatGPT and Openai integration.',
 		link: 'https://github.com/3bdrahman/whisper',
 		image: '../imgs/chatGPT.png',
+		github:'https://github.com/3bdrahman/whisper'
 	},
 	{
-		title: 'Sorting Visualizer',
+		title: 'GPT-Sync Avatar',
 		description:
-			'React application that shows the sorting process of (Bubble, Insertion, Seclection, Merge, Quick) sort algorithms',
-		techs: 'React, NextJS, Tailwind Css, Mapbox API',
-		link: 'https://github.com/3bdrahman/SortingVisualizer',
+			'React application that imitates a virtual chat with a 3D Ready Player Me avatar (RPM) with help of Open AI ChatGPT & Whisper APIs and Microsoft-speech-SDK',
+		link: 'https://github.com/3bdrahman/GPT-Sync-Avatar',
 		image: '../imgs/Sorting.png',
+		github:'https://github.com/3bdrahman/GPT-Sync-Avatar'
 	},
 ];

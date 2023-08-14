@@ -3,11 +3,13 @@ import { wait } from '@testing-library/user-event/dist/utils';
 import React from 'react';
 import './Grid.css';
 import { projectData } from './projectData';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 const Grid = () => {
 	const show = (key) => {
 		const title = document.querySelector('h3.neonText' + `${key + 1}`);
 		if (title) {
-			if (key % 2 == 0) {
+			if (key % 2 === 0) {
 				if (title.classList.contains('slide-out-left')) {
 					title.classList.remove('slide-out-left');
 				}
@@ -40,7 +42,7 @@ const Grid = () => {
 	const hide = (key) => {
 		const title = document.querySelector('h3.neonText' + `${key + 1}`);
 		if (title) {
-			if (key % 2 == 0) {
+			if (key % 2 === 0) {
 				title.classList.remove('slide-in-left');
 				title.classList.add('slide-out-left');
 			} else {
@@ -84,7 +86,10 @@ const Grid = () => {
 										</h3>
 										<p className={'tile-desc neonText' + `${key + 1}`}>
 											{data.description}
+											
 										</p>
+										<a className='repo__link' href={data.github}><GitHubIcon className='icon'/>Github</a>
+										
 									</div>
 								)}
 								{(key + 1) % 2 === 1 && (
@@ -95,6 +100,7 @@ const Grid = () => {
 										<p className={'tile-desc neonText' + `${key + 1}`}>
 											{data.description}
 										</p>
+										<a className='repo__link' href={data.github}><GitHubIcon className='icon'/>Github</a>
 									</div>
 								)}
 								<a className='tile-link ' href={data.link}>

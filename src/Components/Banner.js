@@ -9,7 +9,7 @@ function Banner() {
 			<div className='content'>
 				<TypedText
 					strings={[
-						"Welcome to my digital portfolio, I'm Abdelrahman Youssef.",
+						"Hi there, Thank you for visiting my website. I'm Abdelrahman Youssef.",
 						'Computer Science student and Web Developer.',
 						'Bringing ideas to life with code.',
 					]}
